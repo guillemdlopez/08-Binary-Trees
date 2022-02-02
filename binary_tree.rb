@@ -57,8 +57,6 @@ bt.root.right.right = Node.new(nil,nil,99)
 bt.root.right.right.right = Node.new(nil,nil,89)
 p bt.find(89)
 
-# height -> longest path from the node to any leaf
-# the height of a tree is the height of its root
 # height of empty tree = -1
 # height of ay leaf node = 0
 p bt.getHeight(bt.root)
