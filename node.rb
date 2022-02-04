@@ -6,5 +6,4 @@ class Node
         @right = right
         @value = value
     end
-
 end
